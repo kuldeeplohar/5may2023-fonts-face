@@ -1,0 +1,51 @@
+         @font-face {
+                font-family: 'k1';
+                src: url(../fonts/Chunk.otf) format(opentype) ;
+            }
+            @font-face {
+                font-family: 'k2';
+                src: url(../fonts/Amble.ttf) format(truetype) ;
+            }
+            @font-face {
+                font-family: 'k3';
+                src: url(../fonts/Kaushan.otf) format(opentype) ;
+            }
+            @font-face {
+                font-family: 'k4';
+                src: url(../fonts/FiraSans.otf) format(opentype) ;
+            }
+            @font-face{
+                font-family: 'k5';
+                src: url(../fonts/PTC55F.ttf) format(truetype) ;
+            }
+            @font-face{
+                font-family: 'k6';
+                src: url(../fonts/Chunk.otf) format(opentype) ;
+            }
+            article{
+                border-bottom:1px solid black ;
+                 }
+                 h1.n1{
+                    color:red ;
+                    font-family : 'k1',Arial, Helvetica, sans-serif ;
+                 }
+                 h1.n2{
+                    color:green;
+                    font-family: 'k2',Arial, Helvetica, sans-serif ;
+                 }
+                h1.n3{
+                    color:blue;
+                    font-family : 'k3',Arial, Helvetica, sans-serif;
+                }
+                h1.n4{
+                    color:blueviolet;
+                    font-family : 'k4',Arial, Helvetica, sans-serif;
+                }
+                h1.n5{
+                    color:chocolate;
+                    font-family : 'k5',Arial, Helvetica, sans-serif;
+                }
+                h1.n6{
+                    color:darkgoldenrod;
+                    font-family : 'k6',Arial, Helvetica, sans-serif;
+                }
